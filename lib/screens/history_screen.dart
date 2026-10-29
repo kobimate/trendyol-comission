@@ -1,0 +1,8 @@
+import 'package:flutter/material.dart';
+import 'package:cached_network_image/cached_network_image.dart';
+import '../services/database_service.dart';
+
+class HistoryScreen extends StatefulWidget { const HistoryScreen({super.key}); @override State<HistoryScreen> createState() => _HistoryScreenState(); }
+class _HistoryScreenState extends State<HistoryScreen> { List<Map<String, Object?>> rows = []; @override void initState() { super.initState(); refresh(); } Future<void> refresh() async { rows = await DatabaseService.instance.history(); if (mounted) setState(() {}); }
+  @override Widget build(BuildContext context) => Padding(padding: const EdgeInsets.fromLTRB(18, 24, 18, 8), child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [const Text('Geçmiş', style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)), const SizedBox(height: 6), Text('Daha önce sorguladığınız ürünler', style: TextStyle(color: Colors.grey.shade600)), const SizedBox(height: 16), Expanded(child: rows.isEmpty ? const Center(child: Text('Henüz sorgu geçmişi yok', style: TextStyle(color: Colors.grey))) : RefreshIndicator(onRefresh: refresh, child: ListView.builder(itemCount: rows.length, itemBuilder: (_, i) { final r = rows[i]; final image = '${r['image'] ?? ''}'; return Card(margin: const EdgeInsets.only(bottom: 10), child: ListTile(leading: SizedBox(width: 55, height: 55, child: image.isEmpty ? const Icon(Icons.image) : CachedNetworkImage(imageUrl: image, fit: BoxFit.cover)), title: Text('${r['name']}', maxLines: 2, overflow: TextOverflow.ellipsis), subtitle: Text('${r['price']} ${r['currency'] ?? 'TL'}  •  Komisyon %${r['commission'] ?? 0}'), trailing: Text('${r['searched_at']}'.substring(0, 10))); })))])); }
+}
