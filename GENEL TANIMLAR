@@ -1,0 +1,34 @@
+Trendyol barkod ile ürün sorgulama api adresi.
+https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?q={barcode}&os=1&pathModel=sr&channelId=1&countryCode=TR
+
+Mobil uygulama Tanımı:
+Uygulama içeririnde bir adet sqlite veri tabanı olacak. bu veri tabanı içerisinde;
+- categories tablosu olacak bu tablo ürün kategori bilgilerini tutacak, categories tablosu alanları, parent_id, name, comission şeklinde tanımlanacak.
+- shipment tablosu olacak bu tablo kargo fiyat bilgilerini tutacak, shipment tablosu alanları, mp_uuid, name, desi, price şeklinde tanımlanacak
+- history tablosu olacak bu tablo daha önce yapılan sorguları tutacak, history tablosu alanları, name, url, cateogory_id, price şeklidende olacak.
+
+Uygulama altında Ürün Arama, Kategoriler, Geçmiş olmak üzere üç adet menü butonu olacak.
+Ürün Arama Ekranı:
+Yukarda bir adet ürün barkod giriş alanı olacak ve bu alanın yanında bir barkod butonu olacak. kullanıcı ister el ile yazacak isterse barkod butonuna tıklayıp telefon kamerasından barkod okutabilecek.
+Girilen veya okutulan barkod aşağıdaki api adresinden sorgulanacak.
+https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?q={barcode}&os=1&pathModel=sr&channelId=1&countryCode=TR
+
+Ürün arama sonrası, trendyol_response.json dosyasındaki gibi bir yanıt dönecek, bu yanıt içerisinde appliedSearchStrategy keyi "BARCODE" değil ise ürün bulunamadı hatası verilecek.
+products keyi boş değil ise alttaki alanlar kullanılacak.
+ürün kateogri id si = products->category-id,
+ürün adı = products->name alanından ürün adı alınacak.
+ürün fiyatı = price->discountedPriceText,
+ürün para birimi = price->currencySymbol,
+ürün resmi = products->image,
+ürün puanı = products->ratingScore,
+Ürün sipariş sayısı= products->socialProof key = orderCount ->value
+
+bulunan ürünler bu sayfada kutulu halde alt alta listelenecek.
+Sol tarafda ürün resmi, sağ tarafda ürün bilgileri,
+Ürün kategori idsi categories tablosundan sorgulanarak kategori komisyon  ve isim bilgileri alınacak.
+daha sonra ürün satış fiyatı üzerinden aşağıdaki formüle göre geriye satıcıya kalan net tutar hesaplanacak.
+Bilgiler alanında ürün kategori adı komisyon oranı,  ve diğer bilgiler gösterilsin. ele geçecek tutar eklensin ve modern bir tasarımda gösterilsin.
+Sorulaganan ürünler history tablosuna kaydedilsin ve aynı şekilde gösterilsin. history tablosuna gerekli alanları ekleyebilirsin.
+
+kateogriler sayfası:
+Bir arama kutusu ekle. arama teriminde parent_id si olmayan kategorileri ara bulunan kategorilerden herhangi biri seçildiğinde altta komisyon bilgisi ver
