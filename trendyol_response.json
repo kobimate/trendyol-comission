@@ -1,0 +1,360 @@
+{
+    "appliedSearchStrategy": "BARCODE",
+    "canonicalFilters": {
+        "colors": [],
+        "brands": [],
+        "categories": [],
+        "genders": [],
+        "landingPage": [],
+        "page": 1
+    },
+    "currency": "TL",
+    "products": [
+        {
+            "boutiqueId": 61,
+            "brand": "DEMPOWER",
+            "webBrands": [
+                {
+                    "id": 157405,
+                    "name": "DEMPOWER"
+                }
+            ],
+            "brandId": 1229665,
+            "campaignId": 61,
+            "merchantId": 357668,
+            "category": {
+                "name": "Koşu Bandı",
+                "id": 1909
+            },
+            "contentId": 819546404,
+            "discount": {
+                "discountName": ""
+            },
+            "id": 819546404,
+            "image": "https://cdn.dsmcdn.com/mnresize/400/-/ty1906/prod/QC_ENRICHMENT/20260718/13/2d3ea210-ba7a-333c-abd0-ac2b5eb52b20/1_org_zoom.jpg",
+            "images": [
+                "https://cdn.dsmcdn.com/mnresize/400/-/ty1906/prod/QC_ENRICHMENT/20260718/13/2d3ea210-ba7a-333c-abd0-ac2b5eb52b20/1_org_zoom.jpg",
+                "https://cdn.dsmcdn.com/mnresize/400/-/ty1796/prod/QC_ENRICHMENT/20251202/14/cebf8d51-30ac-3e2d-80ef-d227d4873691/1_org_zoom.jpg",
+                "https://cdn.dsmcdn.com/mnresize/400/-/ty1796/prod/QC_ENRICHMENT/20251202/14/e05991ad-d14f-3b22-acf3-4edf00067638/1_org_zoom.jpg",
+                "https://cdn.dsmcdn.com/mnresize/400/-/ty1796/prod/QC_ENRICHMENT/20251202/14/2f4e6399-c7a5-3a11-9990-69c97c45a45d/1_org_zoom.jpg",
+                "https://cdn.dsmcdn.com/mnresize/400/-/ty1795/prod/QC_ENRICHMENT/20251202/14/560ab1f4-fdda-3b16-b7cf-31cad76e687c/1_org_zoom.jpg",
+                "https://cdn.dsmcdn.com/mnresize/400/-/ty1795/prod/QC_ENRICHMENT/20251202/14/ec61722e-ae77-36d5-8b5f-cdaa9d0ad5eb/1_org_zoom.jpg",
+                "https://cdn.dsmcdn.com/mnresize/400/-/ty1795/prod/QC_ENRICHMENT/20251202/14/5ee3a194-5dc7-3931-99ee-c86f46b524e7/1_org_zoom.jpg"
+            ],
+            "itemNumber": 1094986420,
+            "listingId": "28a49a961b03793ac1f496bda0267c9e",
+            "name": "130KG Taşıma Kapasiteli Bluetoothlu Uygulamadan Ayarlanabilir Uzaktan Kumandalı Yürüme Ve Koşu Bandı",
+            "price": {
+                "old": 0,
+                "oldText": "0",
+                "currency": "TL",
+                "current": 5672.99,
+                "currentText": "5.672,99",
+                "originalPrice": 5672.99,
+                "originalPriceText": "5.672,99",
+                "discountedPrice": 5672.99,
+                "discountedPriceText": "5.672,99",
+                "currencySymbol": "TL"
+            },
+            "ratingScore": {
+                "averageRating": 4.2391895978228,
+                "totalCount": 3307
+            },
+            "stamps": {},
+            "tagDetails": [
+                {
+                    "displayName": "Peşin Fiyatına 3 Taksit",
+                    "hasStamp": true,
+                    "tag": "installment_pft3",
+                    "tagId": 4905,
+                    "tagType": "InstallmentBadge"
+                }
+            ],
+            "badges": {
+                "unknownBadge": {
+                    "title": "Hızlı Satıcı",
+                    "type": "FAST_SELLER"
+                },
+                "topRankingBadge": {
+                    "priority": true,
+                    "title": "4",
+                    "type": "BEST_SELLER"
+                }
+            },
+            "stock": {},
+            "url": "/dempower/130kg-tasima-kapasiteli-bluetoothlu-uygulamadan-ayarlanabilir-uzaktan-kumandali-yurume-ve-kosu-bandi-p-819546404?boutiqueId=61&merchantId=357668",
+            "placeholder": "https://cdn.dsmcdn.com/sfweb-search/images/trendyol-product-card-placeholder_1759241898120.svg",
+            "isSexualContent": false,
+            "hasCollectableCoupon": false,
+            "emptyRating": false,
+            "groupId": 626043986,
+            "dsmColor": "SİYAH",
+            "variantValue": "Tek Ebat",
+            "variantId": "tek-ebat",
+            "isOneSize": true,
+            "hasReviewPhoto": true,
+            "cleanUrlFragments": {
+                "brandName": "DEMPOWER",
+                "name": "130KG Taşıma Kapasiteli Bluetoothlu Uygulamadan Ayarlanabilir Uzaktan Kumandalı Yürüme Ve Koşu Bandı",
+                "webBrandName": "DEMPOWER"
+            },
+            "socialProof": [
+                {
+                    "key": "favoriteCount",
+                    "value": "103K"
+                },
+                {
+                    "key": "orderCount",
+                    "value": "200+"
+                }
+            ],
+            "promotions": [],
+            "freeCargo": true,
+            "recommendedRetailPrice": {
+                "isPriceDiscounted": false,
+                "price": "5.672,99 TL",
+                "priceNumerized": 5672.99,
+                "priceWithoutCurrency": "5.672,99",
+                "suggestedPrice": null,
+                "suggestedPriceWithoutCurrency": null,
+                "suggestedPriceNumerized": null,
+                "suggestedPricePercentage": null,
+                "lowestRecentPrice": null,
+                "lowestRecentPriceNumerized": null,
+                "lowestRecentPriceWithoutCurrency": null,
+                "lowestRecentPercentage": null,
+                "currency": "TL"
+            },
+            "binaryPrice": {
+                "salePrice": "5.672,99 TL",
+                "salePriceWihoutCurrency": "5.672,99",
+                "strikethroughPrice": null,
+                "strikethroughPriceType": null,
+                "discountPercentage": null,
+                "currency": "TL",
+                "discountType": "rrp"
+            },
+            "discountBoxType": 0,
+            "isChoiceNNStoreProduct": false,
+            "choiceNNPrice": {
+                "priceWithoutCurrency": "5.672,99",
+                "lowestRecentPriceWithoutCurrency": null,
+                "currency": "TL"
+            },
+            "hasFlashSaleTag": false,
+            "hasFastDeliveryTag": false,
+            "priceLabels": [
+                {
+                    "name": "TY Plus",
+                    "type": 4,
+                    "value": "5672.99"
+                }
+            ],
+            "tagStockBar": {
+                "isSoldOut": false
+            },
+            "appPrice": {
+                "oldPrice": "5.672,99",
+                "newPrice": "5.657,99",
+                "integerPart": "5",
+                "decimalPart": "657,99",
+                "discountPercentage": 0,
+                "currency": "TL",
+                "codeName": "HELLO40",
+                "discountLimit": 38
+            },
+            "hasCodePromo": false,
+            "cardType": "PRODUCT",
+            "advertType": "DEFAULT",
+            "advert": {
+                "adScore": 0,
+                "adScores": {},
+                "advertId": "",
+                "advertSlot": 0,
+                "cpc": 0,
+                "eCpc": 0,
+                "minCpc": 0,
+                "sortingScore": 0,
+                "oCpc": 0
+            },
+            "productCardAttributes": {
+                "attributes": [
+                    {
+                        "attributeId": 489,
+                        "attributeName": "Bant Uzunluğu",
+                        "attributeValueId": 23633,
+                        "attributeValueName": "90-100 cm",
+                        "isEnergyClass": false
+                    },
+                    {
+                        "attributeId": 60,
+                        "attributeName": "Güç",
+                        "attributeValueId": 416052,
+                        "attributeValueName": "0.75 Hp",
+                        "isEnergyClass": false
+                    }
+                ],
+                "isEnergyClass": false
+            },
+            "stripBadge": {
+                "type": "BEST_SELLER",
+                "title": "4",
+                "color": "linear-gradient(90deg, var(--text-primary, #f27a1a) 0%, #FFC000 100%)",
+                "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1744696563803.svg"
+            },
+            "simplifiedBadges": [
+                {
+                    "type": "FREE_CARGO",
+                    "title": "Kargo Bedava",
+                    "icon": "https://cdn.dsmcdn.com/sfweb-search/images/icon_1746526403138.svg",
+                    "color": "#666"
+                }
+            ],
+            "hasOfficialSellerBadge": false,
+            "singlePrice": {
+                "salePrice": "5.672,99 TL",
+                "salePriceWihoutCurrency": "5.672,99",
+                "salePriceNumeric": 5672.99,
+                "currency": "TL",
+                "componentType": "DEFAULT",
+                "storefrontType": "TR",
+                "priceLabels": {
+                    "4": {
+                        "name": "TY Plus",
+                        "value": "5672.99",
+                        "price": "5.672,99 TL",
+                        "priceWithoutCurrency": "5.672,99"
+                    }
+                }
+            },
+            "singlePromotion": null,
+            "rushDelivery": true,
+            "sameDayShipping": false,
+            "nextDayDelivery": true,
+            "tomorrowShipping": false,
+            "dealBadge": null
+        }
+    ],
+    "query": {
+        "pathModel": "sr",
+        "q": "8683210125897",
+        "os": "1"
+    },
+    "resolvedQuery": {
+        "filters": [],
+        "searchKey": "8683210125897",
+        "initialSearchText": "8683210125897"
+    },
+    "spellingCorrection": {
+        "applied": false
+    },
+    "sortValue": "SCORE",
+    "title": "8683210125897",
+    "generatedSearchQuery": "8683210125897",
+    "total": 1,
+    "roughTotal": "1",
+    "_links": {
+        "sort": [
+            {
+                "name": "Score",
+                "value": "Score",
+                "link": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36&sst=SCORE",
+                "id": "SCORE",
+                "default": true
+            },
+            {
+                "name": "PriceByAsc",
+                "value": "PriceByAsc",
+                "link": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36&sst=PRICE_BY_ASC",
+                "id": "PRICE_BY_ASC"
+            },
+            {
+                "name": "PriceByDesc",
+                "value": "PriceByDesc",
+                "link": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36&sst=PRICE_BY_DESC",
+                "id": "PRICE_BY_DESC"
+            },
+            {
+                "name": "MostRecent",
+                "value": "MostRecent",
+                "link": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36&sst=MOST_RECENT",
+                "id": "MOST_RECENT"
+            },
+            {
+                "name": "BestSeller",
+                "value": "BestSeller",
+                "link": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36&sst=BEST_SELLER",
+                "id": "BEST_SELLER",
+                "isQuickSort": true,
+                "color": "red",
+                "iconName": "fire-filled",
+                "order": 1
+            },
+            {
+                "name": "MostFavourite",
+                "value": "MostFavourite",
+                "link": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36&sst=MOST_FAVOURITE",
+                "id": "MOST_FAVOURITE",
+                "isQuickSort": true,
+                "color": "orange",
+                "iconName": "int-favorites-full",
+                "order": 3
+            },
+            {
+                "name": "MostRated",
+                "value": "MostRated",
+                "link": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36&sst=MOST_RATED",
+                "id": "MOST_RATED",
+                "isQuickSort": true,
+                "color": "yellow",
+                "iconName": "star-filled",
+                "order": 2
+            }
+        ],
+        "next": null,
+        "previous": null,
+        "current": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36",
+        "aggregation": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/aggregations?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36",
+        "product": "https://apigw.trendyol.com/discovery-sfint-search-service/api/search/products/?channelId=1&pathModel=sr&q=8683210125897&os=1&pi=1&pageSize=36"
+    },
+    "pageIndex": 1,
+    "searchWidgets": {
+        "bannerWidgets": {},
+        "productSliderWidgets": {},
+        "justForYouWidget": {},
+        "relatedFilterWidget": {},
+        "aeChoiceWidget": {},
+        "visualCategoryWidget": {},
+        "eventPageFilterWidget": {}
+    },
+    "singleSearchWidgets": [
+        {
+            "title": "Sponsorlu",
+            "eventKey": "8683210125897",
+            "displayCount": 1,
+            "androidClientVersion": 323,
+            "iosClientVersion": 100,
+            "forUpperClientVersion": true,
+            "type": "SELLER_STORE",
+            "displayType": "SLIDER",
+            "feedingSource": "STORE_ADS",
+            "feedingSourceDataKey": "8683210125897_0",
+            "displayOrder": 1,
+            "itemCount": 1,
+            "active": true,
+            "widgetOrder": 1,
+            "displayTypeVariation": "HORIZONTAL"
+        }
+    ],
+    "appPriceParams": {
+        "codeName": "HELLO40",
+        "currency": "TL",
+        "discountLimit": 38
+    },
+    "offsetParameters": "",
+    "relevancyKey": "8683210125897",
+    "uxLayout": "General Merchandise",
+    "alternateTitles": [],
+    "storeAdsWidgets": [],
+    "productAdsWidgetProducts": []
+}
